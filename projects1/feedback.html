@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <script src="https://kit.fontawesome.com/9a9f9b3456.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <a href="" class="logo"><img src="image/logo_madhu-new.png" /></a>
+        <nav class="navbar">
+            <a href="index.html" class="active" >Home</a>
+            <a href="about.html">About us</a>
+            <a href="menu.html">Menu</a>
+            <a href="contacts.html">Contacts</a>
+            <a href="feedback.html">Feedback</a>
+        </nav>
+        <div class="icons">
+            <div class="search-icon"><i class="fas fa-search"></i></div>
+            
+        </div>
+        <div class="search-form">
+            <input type="search" name="search" id="search-box" placeholder="search...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+        
+    </header>
+    <section class="feedback" id="feedback">
+        <div class="feed">
+            <h1>Feedback</h1>
+        </div>
+        <div class="feedback">
+            <form action="end.html">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="india">India</option>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+    </section>
+    <script src="script.js"></script>
+    <footer>
+        <div id="copyright">&#169 copyright Madhu Bakery</div>
+    </footer>
+</body>
+</html>
